@@ -20,7 +20,7 @@ public class FrmTicTacToe extends javax.swing.JFrame {
      */
     public FrmTicTacToe() {
         initComponents();
-        lbl2.setText("Player -" + player +" turn");
+        lbl2.setText("Player -" + player +" turn!");
         setLocationRelativeTo(null);
     }
 
@@ -33,16 +33,15 @@ public class FrmTicTacToe extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         btn1 = new javax.swing.JButton();
-        btn2 = new javax.swing.JButton();
         btn4 = new javax.swing.JButton();
-        btn3 = new javax.swing.JButton();
         btn5 = new javax.swing.JButton();
+        btn2 = new javax.swing.JButton();
+        btn3 = new javax.swing.JButton();
         btn6 = new javax.swing.JButton();
-        btn7 = new javax.swing.JButton();
-        btn8 = new javax.swing.JButton();
         btn9 = new javax.swing.JButton();
+        btn8 = new javax.swing.JButton();
+        btn7 = new javax.swing.JButton();
         lbl2 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -53,21 +52,12 @@ public class FrmTicTacToe extends javax.swing.JFrame {
         mniAbout = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Tic Tac Toe");
-
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("TicTacToe"));
+        setTitle("Swing TicTacToe");
 
         btn1.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
         btn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn1ActionPerformed(evt);
-            }
-        });
-
-        btn2.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
-        btn2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn2ActionPerformed(evt);
             }
         });
 
@@ -78,17 +68,24 @@ public class FrmTicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btn3.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
-        btn3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn3ActionPerformed(evt);
-            }
-        });
-
         btn5.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
         btn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn5ActionPerformed(evt);
+            }
+        });
+
+        btn2.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
+        btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn2ActionPerformed(evt);
+            }
+        });
+
+        btn3.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
+        btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn3ActionPerformed(evt);
             }
         });
 
@@ -99,10 +96,10 @@ public class FrmTicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btn7.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
-        btn7.addActionListener(new java.awt.event.ActionListener() {
+        btn9.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
+        btn9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn7ActionPerformed(evt);
+                btn9ActionPerformed(evt);
             }
         });
 
@@ -113,70 +110,18 @@ public class FrmTicTacToe extends javax.swing.JFrame {
             }
         });
 
-        btn9.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
-        btn9.addActionListener(new java.awt.event.ActionListener() {
+        btn7.setFont(new java.awt.Font("Tahoma", 1, 80)); // NOI18N
+        btn7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn9ActionPerformed(evt);
+                btn7ActionPerformed(evt);
             }
         });
 
         lbl2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btn8, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btn9, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(lbl2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lbl2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-
-        jMenu1.setText("File");
+        jMenu1.setText("System");
 
         mniNewGame.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_MASK));
-        mniNewGame.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/new.png"))); // NOI18N
         mniNewGame.setText("New Game");
         mniNewGame.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,7 +132,6 @@ public class FrmTicTacToe extends javax.swing.JFrame {
         jMenu1.add(jSeparator1);
 
         mniExit.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.ALT_MASK));
-        mniExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/exit.png"))); // NOI18N
         mniExit.setText("Exit");
         mniExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,7 +145,6 @@ public class FrmTicTacToe extends javax.swing.JFrame {
         jMenu2.setText("Help");
 
         mniAbout.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
-        mniAbout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/about.png"))); // NOI18N
         mniAbout.setText("About");
         mniAbout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -218,13 +161,48 @@ public class FrmTicTacToe extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(btn7, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn8, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btn9, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(lbl2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btn4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn5, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn6, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btn7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lbl2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -338,7 +316,7 @@ public class FrmTicTacToe extends javax.swing.JFrame {
         btn9.setText("");
         btn9.setEnabled(true);
         lbl2.setText("");
-        lbl2.setText("Player -1 turn");
+        lbl2.setText("New Game. Player -1 turn!");
         player = 1;
         tie = 0;
     }
@@ -352,7 +330,7 @@ public class FrmTicTacToe extends javax.swing.JFrame {
     }
 
     private void executeAbout() {
-        sutil.Sutil.msg(this, "TacTicToe\nVersion 1.0\nAuthor : Pierry");
+        sutil.Sutil.msg(this, "Swing Tic Tac Toe\nVersion 1.0\nAuthor : Pierry");
     }
 
     private void whoseTurn() {
@@ -363,62 +341,62 @@ public class FrmTicTacToe extends javax.swing.JFrame {
             player = 1;
             turn = "O";
         }
-        lbl2.setText("Player -" + player + " turn");
+        lbl2.setText("Player -" + player + " turn!");
     }
 
     private void whoseWin() {
         //X
         if (btn1.getText().equals("X") && btn2.getText().equals("X") && btn3.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn1.getText().equals("X") && btn5.getText().equals("X") && btn9.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn1.getText().equals("X") && btn4.getText().equals("X") && btn7.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn2.getText().equals("X") && btn5.getText().equals("X") && btn8.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn3.getText().equals("X") && btn6.getText().equals("X") && btn9.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn3.getText().equals("X") && btn5.getText().equals("X") && btn7.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn4.getText().equals("X") && btn5.getText().equals("X") && btn6.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         } else if (btn7.getText().equals("X") && btn8.getText().equals("X") && btn9.getText().equals("X")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 1 Wins !!!");
+            sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
         }
 
         //O
         if (btn1.getText().equals("O") && btn2.getText().equals("O") && btn3.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn1.getText().equals("O") && btn5.getText().equals("O") && btn9.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn1.getText().equals("O") && btn4.getText().equals("O") && btn7.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn2.getText().equals("O") && btn5.getText().equals("O") && btn8.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn3.getText().equals("O") && btn6.getText().equals("O") && btn9.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn3.getText().equals("O") && btn5.getText().equals("O") && btn7.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn4.getText().equals("O") && btn5.getText().equals("O") && btn6.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         } else if (btn7.getText().equals("O") && btn8.getText().equals("O") && btn9.getText().equals("O")) {
             winortie = true;
-            sutil.Sutil.msg(this, "Player 2 Wins !!!");
+            sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
         }
         tie++;
         determineTie();
@@ -426,7 +404,7 @@ public class FrmTicTacToe extends javax.swing.JFrame {
 
     private void determineTie() {
         if (tie == 9 && winortie == false) {
-            sutil.Sutil.msg(this, "TIE !");
+            sutil.Sutil.msg(this, "Draw!" + "\nGame Over.");
             tie = 0;
         }
     }
@@ -480,7 +458,6 @@ public class FrmTicTacToe extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JLabel lbl2;
     private javax.swing.JMenuItem mniAbout;
