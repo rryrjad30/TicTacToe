@@ -349,54 +349,150 @@ public class FrmTicTacToe extends javax.swing.JFrame {
         if (btn1.getText().equals("X") && btn2.getText().equals("X") && btn3.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn4.setEnabled(false);
+            btn5.setEnabled(false);
+            btn6.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn1.getText().equals("X") && btn5.getText().equals("X") && btn9.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn4.setEnabled(false);
+            btn6.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
         } else if (btn1.getText().equals("X") && btn4.getText().equals("X") && btn7.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn5.setEnabled(false);
+            btn6.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn2.getText().equals("X") && btn5.getText().equals("X") && btn8.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn3.setEnabled(false);
+            btn4.setEnabled(false);
+            btn6.setEnabled(false);
+            btn7.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn3.getText().equals("X") && btn6.getText().equals("X") && btn9.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn4.setEnabled(false);
+            btn5.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
         } else if (btn3.getText().equals("X") && btn5.getText().equals("X") && btn7.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn4.setEnabled(false);
+            btn6.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn4.getText().equals("X") && btn5.getText().equals("X") && btn6.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn7.getText().equals("X") && btn8.getText().equals("X") && btn9.getText().equals("X")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -1 (X) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn4.setEnabled(false);
+            btn5.setEnabled(false);
+            btn6.setEnabled(false);
         }
 
         //O
         if (btn1.getText().equals("O") && btn2.getText().equals("O") && btn3.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn4.setEnabled(false);
+            btn5.setEnabled(false);
+            btn6.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn1.getText().equals("O") && btn5.getText().equals("O") && btn9.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn4.setEnabled(false);
+            btn6.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
         } else if (btn1.getText().equals("O") && btn4.getText().equals("O") && btn7.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn5.setEnabled(false);
+            btn6.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn2.getText().equals("O") && btn5.getText().equals("O") && btn8.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn3.setEnabled(false);
+            btn4.setEnabled(false);
+            btn6.setEnabled(false);
+            btn7.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn3.getText().equals("O") && btn6.getText().equals("O") && btn9.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn4.setEnabled(false);
+            btn5.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
         } else if (btn3.getText().equals("O") && btn5.getText().equals("O") && btn7.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn4.setEnabled(false);
+            btn6.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn4.getText().equals("O") && btn5.getText().equals("O") && btn6.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn7.setEnabled(false);
+            btn8.setEnabled(false);
+            btn9.setEnabled(false);
         } else if (btn7.getText().equals("O") && btn8.getText().equals("O") && btn9.getText().equals("O")) {
             winortie = true;
             sutil.Sutil.msg(this, "Player -2 (O) Win !"+"\nGame Over.");
+            btn1.setEnabled(false);
+            btn2.setEnabled(false);
+            btn3.setEnabled(false);
+            btn4.setEnabled(false);
+            btn5.setEnabled(false);
+            btn6.setEnabled(false);
         }
         tie++;
         determineTie();
